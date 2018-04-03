@@ -1,1 +1,1 @@
-# Merging-Google-Assistant-and-Amazon-Alexa
+smart speaker
