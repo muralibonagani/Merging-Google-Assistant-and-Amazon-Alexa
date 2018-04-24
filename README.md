@@ -30,9 +30,13 @@ Restart Pi using:
 sudo reboot
 
 For the working of USB Mic in the Pi
+
 Create/edit file .asoundrc
+
 $vim .asoundrc
+
 If file is not present create it;
+
 $ touch .asoundrc
 $vim .asoundrc 
 pcm.!default {
@@ -44,7 +48,9 @@ ctl.!default {
         type hw
         card 1
 }
+
 Edit below line in file alsa.conf;
+
 $sudo vim /usr/share/alsa/alsa.conf
 defaults.ctl.card 0
 defaults.pcm.card 0
